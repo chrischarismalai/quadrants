@@ -8,3 +8,48 @@ author: christopher@coffeewithyourmilk.com
 created: March 13, 2018
 last-updated: March 13, 2018
 */
+
+main {
+    background-color: rgba(20,20,20,0.3);
+    font-family: sans-serif;
+}
+
+#quadrant {
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+
+#quadrant td {
+  padding: 0.5em;
+}
+
+#Q1 table, #Q2 table, #Q3 table, #Q4 table {
+  width: 300px;
+  height: 164px;
+}
+
+#Q1 table { background-color: hsla(199,51.8%,33.3%,1);}
+#Q1 > h1 {background-color: hsla(199,53.2%, 24.3%,1); margin: 0.25em 0;}
+#Q1 img {height: 85px; width: 85px;}
+#Q1 {position: relative;}
+#Q1 div {position: absolute; left: -77px; top: 16px;}
+
+#Q2 table { background-color: hsla(188,41.6%,44.3%,1);}
+#Q2 > h1 {background-color: hsla(187,41.2%,58.6%,1); margin: 0.25em 0;}
+#Q2 img {height: 85px; width: 85px;}
+#Q2 {position: relative;}
+#Q2 div {position: absolute; right: -77px; top: 16px;}
+
+
+#Q3 table {background-color: hsla(7,87.3%,62.9%,1);}
+#Q3 > h1 {background-color: hsla(7,88.4%,47.3%,1); margin: 0.25em 0;}
+#Q3 img {height: 85px; width: 85px;}
+#Q3 {position: relative;}
+#Q3 div {position: absolute; left: -77px; bottom: 12px;}
+
+#Q4 table {background-color: hsla(42,82.6%,68.4%,1);}
+#Q4 > h1 {background-color: hsla(42,82.3%,51.4%,1); margin: 0.25em 0;}
+#Q4 img {height: 85px; width: 85px;}
+#Q4 {position: relative;}
+#Q4 div {position: absolute; right: -77px; bottom: 12px;}
