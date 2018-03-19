@@ -53,3 +53,15 @@ main {
 #Q4 img {height: 85px; width: 85px;}
 #Q4 {position: relative;}
 #Q4 div {position: absolute; right: -77px; bottom: 12px;}
+
+.task {border: 1px solid black;}
+
+.delegatee {
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.dragdrop {
+  display: inline-block;
+  border: 1px solid white;
+}

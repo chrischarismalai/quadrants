@@ -57,7 +57,26 @@
           <td id="Q1">
             <div><img src="img/manage.png" alt="caution sign"></div><h1>MANAGE</h1>
             <table>
-              <tbody><tr><td>text 2</td></tr></tbody>
+              <tbody>
+                <tr class="task">
+                  <td>
+                    <span class="dragdrop">::</span>
+                    <input type="checkbox" name="task" value="complete">
+                    This is an example task
+                    <input type="button" id="recordBtn" onclick="myFunction()" value=">">
+                    <span class="delegatee">CL</span>
+                  </td>
+                </tr>
+                <tr class="task">
+                  <td>
+                    <span class="dragdrop">::</span>
+                    <input type="checkbox" name="task" value="complete">
+                    task delegated to another.
+                    <input type="button" id="recordBtn" onclick="myFunction()" value=">">
+                    <span class="delegatee">TW</span>
+                  </td>
+                </tr>
+            </tbody>
             </table>
           </td>
           <td id="Q2">
